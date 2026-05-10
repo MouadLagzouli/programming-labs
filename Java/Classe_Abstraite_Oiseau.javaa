@@ -1,0 +1,47 @@
+abstract class Oiseau {
+
+    public abstract void voler();
+
+    public abstract void faireSon();
+}
+
+class Aigle extends Oiseau {
+
+    @Override
+    public void voler() {
+        System.out.println("Aigle: Voler haut dans le ciel.");
+    }
+
+    @Override
+    public void faireSon() {
+        System.out.println("Aigle: Cri aigu! Cri aigu!");
+    }
+}
+
+class Faucon extends Oiseau {
+
+    @Override
+    public void voler() {
+        System.out.println("Faucon: Planer dans les airs.");
+    }
+
+    @Override
+    public void faireSon() {
+        System.out.println("Faucon: Croasse! Croasse!");
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Oiseau aigle = new Aigle();
+        Oiseau faucon = new Faucon();
+
+        aigle.voler();
+        aigle.faireSon();
+
+        faucon.voler();
+        faucon.faireSon();
+    }
+}
