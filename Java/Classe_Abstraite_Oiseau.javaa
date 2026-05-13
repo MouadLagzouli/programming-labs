@@ -1,4 +1,4 @@
-abstract class Oiseau {
+ abstract class Oiseau {
 
     public abstract void voler();
 
