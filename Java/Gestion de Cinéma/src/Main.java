@@ -6,7 +6,7 @@ public class Main {
         Spectateur s1 = new Spectateur("Ali");
         Spectateur s2 = new Spectateur("Karim");
         Spectateur s3 = new Spectateur("Sara");
-        Spectateur s4 = new Spectateur("Nada");
+        Spectateur s4 =  new Spectateur("Nada");
 
         System.out.println(c.placer(s1));
         System.out.println(c.placer(s2));
