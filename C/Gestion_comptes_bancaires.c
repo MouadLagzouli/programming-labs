@@ -11,8 +11,7 @@ void Retirer(float montant,int num, float *tabSoldes,  int *tabCpt, int N);
 int main() {
     int *tabCpt;
     float *tabSoldes;
-  int  N ;
-    
+int N ;    
     const int MAX = 50;
 
     /* Saisie de N */
