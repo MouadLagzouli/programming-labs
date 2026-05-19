@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>   
 
 void triSelection(int T[], int n) {
     int i, j, minIndex, temp;
