@@ -31,5 +31,5 @@ int main (void) {
     else if (ord == -1) printf("Le tableau est trie DECROISSANT.\n");
     else printf("Le tableau n'est PAS trie.\n");
 
-    return 0;
+return 0;
 }
