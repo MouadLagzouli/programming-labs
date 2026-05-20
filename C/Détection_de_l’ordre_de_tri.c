@@ -13,7 +13,7 @@ int ordre_tableau(const int t[], int n) {
     return 0;                    /* non trie */
 }
 
-int main(void) {
+int main (void) {
     int n;
 
     printf("Donner N : ");
