@@ -19,4 +19,11 @@ void compterRepetitions(int liste[], int n) {
         }
     }
 
+    printf("  %d    |     %d\n", valeur, compteur);
+}
+
+int main() {
+    int liste[100];
+    int n, i;
+
    
