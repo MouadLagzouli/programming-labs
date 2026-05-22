@@ -6,9 +6,8 @@ void compterRepetitions(int liste[], int n) {
     printf("Valeur | Répétitions\n");
     printf("-------+------------\n");
 
-    valeur   = liste[0];
-    compteur = 1;
-
+    valeur = liste[0];
+compteur =1;
     for (i = 1; i < n; i++) {
         if (liste[i] == valeur) {
             compteur++;
