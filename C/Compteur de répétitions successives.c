@@ -25,5 +25,12 @@ void compterRepetitions(int liste[], int n) {
 int main() {
     int liste[100];
     int n, i;
+ printf("Entrez le nombre d'éléments: ");
+    scanf("%d", &n);
 
-   
+    for (i = 0; i < n; i++) {
+        printf("Entrez l'élément %d: ", i + 1);
+        scanf("%d", &liste[i]);
+    }
+
+  
