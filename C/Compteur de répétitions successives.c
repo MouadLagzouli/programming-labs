@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void compterRepetitions(int liste[], int n) {
-    int valeur, compteur, i;
+    int valeur, compteur, i;                            
 
     printf("Valeur | Répétitions\n");
     printf("-------+------------\n");
