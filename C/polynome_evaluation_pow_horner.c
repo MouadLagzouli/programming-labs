@@ -7,7 +7,7 @@ int main() {
     float coeff[101]; // A[0]..A[n], n <= 100
 
     // Lecture de n
-    do {
+ do {
         printf("Entrez le degre du polynome n (1 <= n <= 100) : ");
         scanf("%d", &n);
     } while (n < 1 || n >  100);
