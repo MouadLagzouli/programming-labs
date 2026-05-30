@@ -24,8 +24,8 @@ int NCHIFFRES(long N) {
 
     /* Cas particulier : N = 0 */
     if (N == 0)
-        return 1;
-
+return 1;
+    
     /* Comptage des chiffres */
     while (N > 0) {
         compteur++;
