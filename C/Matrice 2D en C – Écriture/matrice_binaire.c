@@ -79,7 +79,7 @@ int main(void)
     free(tab);
     tab = NULL;
 
-    /* Lecture depuis le fichier binaire */
+    // Lecture depuis le fichier binaire //
     printf("\nReouverture du fichier Mat2D.bin pour lecture\n");
     fp = fopen("Mat2D.bin", "rb");
     if (fp == NULL) {
