@@ -125,7 +125,7 @@ int main(void)
         return EXIT_FAILURE;
     }
 
-    /* Affichage de la matrice lue */
+    // Affichage de la matrice lue //
     printf("\nAffichage de la matrice lue depuis le fichier\n");
     for (i = 0; i < L; i++) {
         for (j = 0; j < C; j++)
