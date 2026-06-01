@@ -10,8 +10,8 @@ int main() {
     scanf("%ld", &A);
 
     printf("Le nombre %ld contient %d chiffres.\n", A, NCHIFFRES(A));
-
-    return 0;
+return 0;
+ 
 }
 
 /* Fonction qui calcule le nombre de chiffres */
