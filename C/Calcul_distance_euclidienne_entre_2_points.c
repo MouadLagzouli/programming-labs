@@ -3,7 +3,7 @@
 
 struct Point {
     float x;
-    float y;
+      float y;
 };
 
 int main() {
