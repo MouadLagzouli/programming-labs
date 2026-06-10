@@ -7,7 +7,7 @@ int dicho_decroissant(const int t[], int n, int val) {
         int m = g + (d - g) / 2;
 
         if (t[m] == val) return m;
-        if (val > t[m]) d = m - 1;     /* inversé */
+        if (val > t[m]) d = m - 1;   //inversé//
         else g = m + 1;
     }
     return -1;
