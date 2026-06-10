@@ -36,5 +36,5 @@ int main(void) {
     else
         printf("Valeur %d trouvee a l'index %d.\n", val, pos);
 
-    return 0;
+return 0;
 }
