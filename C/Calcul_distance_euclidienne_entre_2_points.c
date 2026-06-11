@@ -11,7 +11,7 @@ int main() {
     struct Point p1, p2;
     float distance;
 
-    printf("Saisir coordonnees du point 1 (x y) : ");
+    printf("Saisir les coordonnees du point 1 (x y) : ");
     scanf("%f %f", &p1.x, &p1.y);
 
     printf("Saisir coordonnees du point 2 (x y) : ");
