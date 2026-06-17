@@ -7,7 +7,7 @@ struct Point {
       float y;
 };
 
-int main() {
+int main () {
     struct Point p1, p2;
     float distance;
 
