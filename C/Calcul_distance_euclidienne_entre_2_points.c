@@ -9,8 +9,7 @@ struct Point {
 
 int main () {
     struct Point p1, p2;
-    float distance;
-
+   float distance;
     printf("Saisir les coordonnees du point 1 (x y) : ");
     scanf("%f %f", &p1.x, &p1.y);
 
